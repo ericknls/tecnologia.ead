@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+body{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h4 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+a{
+    color: #FFFFFF;
+}
+
+a:hover{
+    color: #FFFFFF;
+}
+
+#iniciar-sessao-btn{
+    border: 2px solid hsl(318, 100%, 38%);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#iniciar-sessao-btn{
+    background-color: hsl(318, 100%, 38%);
+    color: #FFFFFF;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: sans-serif;
+}
+
+span{
+    color: #FFFFFF;
+}
+
+p{
+    line-height: 32px;
+    max-width: 500px;
+    font-family: sans-serif;
+    height: 1%;
+}
+
+img{
+    width: 580px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 60%;
+}
+
+check {
+    box-align: left;
+    font-family: sans-serif;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: hsl(318, 100%, 38%);
+    color: #FFFFFF;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+}
+
